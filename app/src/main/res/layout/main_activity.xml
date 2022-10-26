@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/bground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/row_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp"
+            android:background="#A3916767"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:id="@+id/textViewHeader"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="#793E1F1F"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="@string/app_title"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+
+        <ImageView
+            android:id="@+id/Ruins"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="1dp"
+            app:srcCompat="@drawable/mtourist1" />
+
+        <ImageView
+            android:id="@+id/LakawonIsland"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="1dp"
+            app:srcCompat="@drawable/mtourist2" />
+
+    </TableRow>
+
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/BalayNegrense"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="1dp"
+            app:srcCompat="@drawable/mtourist3" />
+
+        <ImageView
+            android:id="@+id/SanSeb"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/icon_holder"
+            android:gravity="center"
+            android:padding="1dp"
+            app:srcCompat="@drawable/mtourist4" />
+    </TableRow>
+</TableLayout>

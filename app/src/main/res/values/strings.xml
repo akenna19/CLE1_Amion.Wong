@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Negrense Spots</string>
+    <string name="app_title">Tourist Spots in Negros Occidental</string>
+    <string name="icon_holder">Icon Holder</string>
+    <string name="tourist1">The Ruins</string>
+    <string name="tourist2">Lakawon Island</string>
+    <string name="tourist3">Balay Negrense</string>
+    <string name="tourist4">San Sebastian Cathedral</string>
+</resources>
